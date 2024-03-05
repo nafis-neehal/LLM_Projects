@@ -7,3 +7,6 @@ This repository contains several cool open-source limited-scope capstone project
   - Dialog Summarization: In-Context (Zero/One/Few Shot) Learning via prompt engineering, worked with FLAN-T5, tweaked generative configuration parameters for inference (e.g. max_new_tokens, temperature, do_sample, top_k, top_p etc)
   - Fine Tune FLAN T5 for Dialog Summarization: Full Instruction Fine-Tuning, PEFT (LoRA), evaluated using ROUGE metrics
   - Fine Tune FLAN T5 to detoxify Summaries: Fine-tune FLAN T5 with RL (Proximal Policy Optimization) and Meta AI's RoBERTa based hate speech model for content moderation.
+
+**3. Practicing RAG with Chroma, Pinecone and LangChain:** In this self-learning project, I'm learning about how to use RAG techniques to give LLMs additional contexts stored as embedding in vectorDBs such as Chroma or Pinecone. 
+  - Seeing how well different OpenAI/HG Open source models can answer Harry Potter trivia questions with or without RAG support. For RAG, all the 7 HP books are being used as sources in a text format. 
